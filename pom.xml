@@ -4,10 +4,9 @@
     <modelVersion>4.0.0</modelVersion>
     <modules>
         <module>common</module>
-        <module>common/common_util</module>
-        <module>common/service_util</module>
         <module>model</module>
         <module>service</module>
+        <module>service_client</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -19,8 +18,7 @@
     <artifactId>syt_parent</artifactId>
     <packaging>pom</packaging>
     <version>0.0.1-SNAPSHOT</version>
-    <name>syt_parent</name>
-    <description>syt_parent</description>
+
     <properties>
         <java.version>1.8</java.version>
         <cloud.version>Hoxton.RELEASE</cloud.version>
